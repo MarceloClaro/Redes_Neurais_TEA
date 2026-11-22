@@ -1,0 +1,233 @@
+Processing file: /tmp/opencode/vbaProject.bin
+===============================================================================
+Module streams:
+VBA/Módulo1 - 1585 bytes
+VBA/EstaPastaDeTrabalho - 1489 bytes
+VBA/Planilha12 - 1180 bytes
+VBA/Planilha2 - 1242 bytes
+VBA/Planilha3 - 1370 bytes
+VBA/Planilha4 - 1242 bytes
+VBA/Módulo2 - 1024 bytes
+Line #0:
+VBA/Módulo3 - 3897 bytes
+Line #0:
+	FuncDefn (Sub SOLVER1())
+Line #1:
+	QuoteRem 0x0000 0x0000 ""
+Line #2:
+	QuoteRem 0x0000 0x000E " SOLVER1 Macro"
+Line #3:
+	QuoteRem 0x0000 0x0000 ""
+Line #4:
+Line #5:
+	QuoteRem 0x0000 0x0000 ""
+Line #6:
+	LineCont 0x0008 0F 00 08 00 10 00 08 00
+	LitStr 0x0005 "$R$16"
+	ParamNamed SetCell 
+	LitDI2 0x0002 
+	ParamNamed MaxMinVal 
+	LitDI2 0x0000 
+	ParamNamed ValueOf 
+	LitStr 0x005D "$W$19:$AA$19,$W$22:$AA$22,$W$25:$AA$25,$W$28:$AA$28,$AE$19:$AI$19,$AE$22:$AI$22,$AE$25:$AI$25"
+	ParamNamed ByChange 
+	LitDI2 0x0001 
+	ParamNamed Engine 
+	LitStr 0x000D "GRG Nonlinear"
+	ParamNamed EngineDesc 
+	ArgsCall SolverOk 0x0006 
+Line #7:
+	LineCont 0x0008 0F 00 08 00 1E 00 08 00
+	LitDI2 0x0000 
+	ParamNamed MaxTime 
+	LitDI2 0x0000 
+	ParamNamed Iterations 
+	LitR8 0xD695 0xE826 0x2E0B 0x3E11 
+	ParamNamed Precision 
+	LitR8 0xEA11 0x812D 0x9799 0x3D71 
+	ParamNamed Convergence 
+	LitVarSpecial (True)
+	ParamNamed StepThru 
+	LitVarSpecial (True)
+	ParamNamed Scaling 
+	LitVarSpecial (False)
+	ParamNamed AssumeNonNeg 
+	LitDI2 0x0001 
+	ParamNamed Derivatives 
+	ArgsCall SolverOptions 0x0008 
+Line #8:
+	LineCont 0x0008 0E 00 08 00 1D 00 08 00
+	LitDI2 0x0384 
+	ParamNamed PopulationSize 
+	LitDI2 0x0001 
+	ParamNamed RandomSeed 
+	LitR8 0x3333 0x3333 0x3333 0x3FB3 
+	ParamNamed MutationRate 
+	LitVarSpecial (True)
+	ParamNamed Multistart 
+	LitVarSpecial (False)
+	ParamNamed RequireBounds 
+	LitDI2 0x0000 
+	ParamNamed MaxSubproblems 
+	LitDI2 0x0000 
+	ParamNamed MaxIntegerSols 
+	LitR8 0x999A 0x9999 0x9999 0x3FB9 
+	ParamNamed IntTolerance 
+	LitVarSpecial (False)
+	ParamNamed SolveWithout 
+	LitDI2 0x012C 
+	ParamNamed MaxTimeNoImp 
+	ArgsCall SolverOptions 0x000A 
+Line #9:
+	LineCont 0x0008 0F 00 08 00 10 00 08 00
+	LitStr 0x0005 "$R$16"
+	ParamNamed SetCell 
+	LitDI2 0x0002 
+	ParamNamed MaxMinVal 
+	LitDI2 0x0000 
+	ParamNamed ValueOf 
+	LitStr 0x005D "$W$19:$AA$19,$W$22:$AA$22,$W$25:$AA$25,$W$28:$AA$28,$AE$19:$AI$19,$AE$22:$AI$22,$AE$25:$AI$25"
+	ParamNamed ByChange 
+	LitDI2 0x0001 
+	ParamNamed Engine 
+	LitStr 0x000D "GRG Nonlinear"
+	ParamNamed EngineDesc 
+	ArgsCall SolverOk 0x0006 
+Line #10:
+	LineCont 0x0008 0F 00 08 00 10 00 08 00
+	LitStr 0x0005 "$R$16"
+	ParamNamed SetCell 
+	LitDI2 0x0002 
+	ParamNamed MaxMinVal 
+	LitDI2 0x0000 
+	ParamNamed ValueOf 
+	LitStr 0x005D "$W$19:$AA$19,$W$22:$AA$22,$W$25:$AA$25,$W$28:$AA$28,$AE$19:$AI$19,$AE$22:$AI$22,$AE$25:$AI$25"
+	ParamNamed ByChange 
+	LitDI2 0x0001 
+	ParamNamed Engine 
+	LitStr 0x000D "GRG Nonlinear"
+	ParamNamed EngineDesc 
+	ArgsCall SolverOk 0x0006 
+Line #11:
+	ArgsCall SolverSolve 0x0000 
+Line #12:
+	EndSub 
+VBA/Módulo4 - 3184 bytes
+Line #0:
+	FuncDefn (Sub telaCheia())
+Line #1:
+	LitVarSpecial (True)
+	Ld Application 
+	MemSt DisplayFullScreen 
+Line #2:
+	LitVarSpecial (False)
+	Ld Application 
+	MemSt DisplayFormulaBar 
+Line #3:
+	LitVarSpecial (False)
+	Ld ActiveWindow 
+	MemSt DisplayHeadings 
+Line #4:
+	LitVarSpecial (False)
+	Ld ActiveWindow 
+	MemSt DisplayHorizontalScrollBar 
+Line #5:
+	LitVarSpecial (False)
+	Ld ActiveWindow 
+	MemSt DisplayVerticalScrollBar 
+Line #6:
+	LitVarSpecial (False)
+	Ld ActiveWindow 
+	MemSt DisplayWorkbookTabs 
+Line #7:
+	LitVarSpecial (False)
+	Ld Application 
+	MemSt DisplayStatusBar 
+Line #8:
+	LitVarSpecial (False)
+	Ld Application 
+	MemSt DisplayFunctionToolTips 
+Line #9:
+	Ld “DASHBOARD” 
+	Ld Application 
+	MemSt Caption 
+Line #10:
+	StartWithExpr 
+	Ld ActiveWindow 
+	With 
+Line #11:
+Line #12:
+	EndWith 
+Line #13:
+Line #14:
+	EndSub 
+Line #15:
+Line #16:
+	FuncDefn (Sub telaNormal())
+Line #17:
+	LitVarSpecial (False)
+	Ld Application 
+	MemSt DisplayFullScreen 
+Line #18:
+	LitVarSpecial (True)
+	Ld Application 
+	MemSt DisplayFormulaBar 
+Line #19:
+	LitVarSpecial (True)
+	Ld ActiveWindow 
+	MemSt DisplayHeadings 
+Line #20:
+	LitVarSpecial (True)
+	Ld ActiveWindow 
+	MemSt DisplayHorizontalScrollBar 
+Line #21:
+	LitVarSpecial (True)
+	Ld ActiveWindow 
+	MemSt DisplayVerticalScrollBar 
+Line #22:
+	LitVarSpecial (True)
+	Ld ActiveWindow 
+	MemSt DisplayWorkbookTabs 
+Line #23:
+	LitVarSpecial (True)
+	Ld Application 
+	MemSt DisplayStatusBar 
+Line #24:
+	LitVarSpecial (True)
+	Ld Application 
+	MemSt DisplayFunctionToolTips 
+Line #25:
+	Ld “” 
+	Ld Application 
+	MemSt Caption 
+Line #26:
+	StartWithExpr 
+	Ld ActiveWindow 
+	With 
+Line #27:
+Line #28:
+	EndWith 
+Line #29:
+Line #30:
+	EndSub 
+VBA/Planilha6 - 1346 bytes
+VBA/Planilha5 - 1359 bytes
+VBA/Planilha8 - 1178 bytes
+VBA/Planilha9 - 1178 bytes
+VBA/Planilha1 - 1266 bytes
+VBA/Planilha23 - 1140 bytes
+VBA/Planilha13 - 1140 bytes
+VBA/Planilha14 - 1140 bytes
+VBA/Planilha15 - 1140 bytes
+VBA/Planilha16 - 1140 bytes
+VBA/Planilha17 - 1140 bytes
+VBA/Planilha18 - 1140 bytes
+VBA/Planilha19 - 1140 bytes
+VBA/Planilha20 - 1140 bytes
+VBA/Planilha21 - 1140 bytes
+VBA/Planilha22 - 1140 bytes
+VBA/Planilha7 - 1226 bytes
+VBA/Planilha10 - 1273 bytes
+VBA/Planilha11 - 1196 bytes
+VBA/Planilha24 - 1068 bytes
+VBA/Planilha25 - 1185 bytes

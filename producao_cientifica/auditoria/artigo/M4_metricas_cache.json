@@ -1,0 +1,328 @@
+{
+  "gerado_em": "2026-11-22T00:35:18-03:00",
+  "arquivo": "auditoria/Redes_Neurais_TEA_Dataset_VBA_corrigido.xlsm",
+  "sha256": "3320701be3003f2a797430984a4768f837b8622d1a6534452205c9ae027bb475",
+  "classificacao": "DIAGNOSTICO DO ESTADO ORIGINAL - cache gerado antes da correcao de K20; Solver NAO reexecutado",
+  "metodo": {
+    "acuracia": "(TP+TN)/n",
+    "sensibilidade": "TP/(TP+FN)",
+    "especificidade": "TN/(TN+FP)",
+    "vpp": "TP/(TP+FP)",
+    "vpn": "TN/(TN+FN)",
+    "wilson_padrao": "(p+z^2/(2n))/(1+z^2/n) +/- z*sqrt(p(1-p)/n + z^2/(4n^2))/(1+z^2/n), z=1.96",
+    "wilson_textual": "(p+z^2/(2n))/(1+z^2/n) +/- z*sqrt((p(1-p)+z^2/(4n^2))/n)/(1+z^2/n), z=1.96",
+    "tolerancia": 1e-12
+  },
+  "abas": [
+    {
+      "aba": "Rede Neural |n119|n72|n1|n73",
+      "n": 30,
+      "contagem_rotulos": {
+        "TEA": 15,
+        "NAO_TEA": 15
+      },
+      "matriz": {
+        "TP": 8,
+        "TN": 11,
+        "FP": 4,
+        "FN": 7
+      },
+      "soma_matriz_igual_n": true,
+      "consistentes_totais": true,
+      "acuracia_cache": 0.6333333333333333,
+      "acuracia_recalculada": 0.6333333333333333,
+      "acuracia_compativel": true,
+      "sensibilidade": {
+        "cache": 0.5333333333333333,
+        "recalculada": 0.5333333333333333,
+        "compativel": true
+      },
+      "especificidade": {
+        "cache": 0.7333333333333333,
+        "recalculada": 0.7333333333333333,
+        "compativel": true
+      },
+      "vpp": {
+        "cache": 0.6666666666666666,
+        "recalculada": 0.6666666666666666,
+        "compativel": true
+      },
+      "vpn": {
+        "cache": 0.6111111111111112,
+        "recalculada": 0.6111111111111112,
+        "compativel": true
+      },
+      "ic_cache": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "ic_wilson_padrao": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "ic_formula_textual": {
+        "inf": 0.46497849948606584,
+        "sup": 0.7714169428098067
+      },
+      "cache_compativel_com_wilson_padrao": true,
+      "cache_compativel_com_formula_textual": false,
+      "formulas_ic_texto": {
+        "inf": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)-1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)",
+        "sup": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)+1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)"
+      },
+      "perda_eqm_treino": 0.1987664625133749,
+      "um_menos_eqm": 0.8012335374866251,
+      "aviso_cache": "CACHE ORIGINAL - NAO VALIDADO apos K20; Solver nao reexecutado",
+      "argmax_confirmacoes": "30/30",
+      "argmax_sem_classe": 0
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n116|n50",
+      "n": 30,
+      "contagem_rotulos": {
+        "TEA": 15,
+        "NAO_TEA": 15
+      },
+      "matriz": {
+        "TP": 9,
+        "TN": 13,
+        "FP": 2,
+        "FN": 6
+      },
+      "soma_matriz_igual_n": true,
+      "consistentes_totais": true,
+      "acuracia_cache": 0.7333333333333333,
+      "acuracia_recalculada": 0.7333333333333333,
+      "acuracia_compativel": true,
+      "sensibilidade": {
+        "cache": 0.6,
+        "recalculada": 0.6,
+        "compativel": true
+      },
+      "especificidade": {
+        "cache": 0.8666666666666667,
+        "recalculada": 0.8666666666666667,
+        "compativel": true
+      },
+      "vpp": {
+        "cache": 0.8181818181818182,
+        "recalculada": 0.8181818181818182,
+        "compativel": true
+      },
+      "vpn": {
+        "cache": 0.6842105263157895,
+        "recalculada": 0.6842105263157895,
+        "compativel": true
+      },
+      "ic_cache": {
+        "inf": 0.5555169795568831,
+        "sup": 0.8581750444608938
+      },
+      "ic_wilson_padrao": {
+        "inf": 0.5555169795568831,
+        "sup": 0.8581750444608938
+      },
+      "ic_formula_textual": {
+        "inf": 0.5661821290452689,
+        "sup": 0.847509894972508
+      },
+      "cache_compativel_com_wilson_padrao": true,
+      "cache_compativel_com_formula_textual": false,
+      "formulas_ic_texto": {
+        "inf": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)-1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)",
+        "sup": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)+1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)"
+      },
+      "perda_eqm_treino": 0.23577645519026902,
+      "um_menos_eqm": 0.764223544809731,
+      "aviso_cache": "CACHE ORIGINAL - NAO VALIDADO apos K20; Solver nao reexecutado",
+      "argmax_confirmacoes": "30/30",
+      "argmax_sem_classe": 0
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n116|n86",
+      "n": 30,
+      "contagem_rotulos": {
+        "TEA": 15,
+        "NAO_TEA": 15
+      },
+      "matriz": {
+        "TP": 8,
+        "TN": 11,
+        "FP": 4,
+        "FN": 7
+      },
+      "soma_matriz_igual_n": true,
+      "consistentes_totais": true,
+      "acuracia_cache": 0.6333333333333333,
+      "acuracia_recalculada": 0.6333333333333333,
+      "acuracia_compativel": true,
+      "sensibilidade": {
+        "cache": 0.5333333333333333,
+        "recalculada": 0.5333333333333333,
+        "compativel": true
+      },
+      "especificidade": {
+        "cache": 0.7333333333333333,
+        "recalculada": 0.7333333333333333,
+        "compativel": true
+      },
+      "vpp": {
+        "cache": 0.6666666666666666,
+        "recalculada": 0.6666666666666666,
+        "compativel": true
+      },
+      "vpn": {
+        "cache": 0.6111111111111112,
+        "recalculada": 0.6111111111111112,
+        "compativel": true
+      },
+      "ic_cache": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "ic_wilson_padrao": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "ic_formula_textual": {
+        "inf": 0.46497849948606584,
+        "sup": 0.7714169428098067
+      },
+      "cache_compativel_com_wilson_padrao": true,
+      "cache_compativel_com_formula_textual": false,
+      "formulas_ic_texto": {
+        "inf": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)-1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)",
+        "sup": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)+1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)"
+      },
+      "perda_eqm_treino": 0.27590871416849294,
+      "um_menos_eqm": 0.7240912858315071,
+      "aviso_cache": "CACHE ORIGINAL - NAO VALIDADO apos K20; Solver nao reexecutado",
+      "argmax_confirmacoes": "30/30",
+      "argmax_sem_classe": 0
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n119|n72",
+      "n": 30,
+      "contagem_rotulos": {
+        "TEA": 15,
+        "NAO_TEA": 15
+      },
+      "matriz": {
+        "TP": 12,
+        "TN": 12,
+        "FP": 3,
+        "FN": 3
+      },
+      "soma_matriz_igual_n": true,
+      "consistentes_totais": true,
+      "acuracia_cache": 0.8,
+      "acuracia_recalculada": 0.8,
+      "acuracia_compativel": true,
+      "sensibilidade": {
+        "cache": 0.8,
+        "recalculada": 0.8,
+        "compativel": true
+      },
+      "especificidade": {
+        "cache": 0.8,
+        "recalculada": 0.8,
+        "compativel": true
+      },
+      "vpp": {
+        "cache": 0.8,
+        "recalculada": 0.8,
+        "compativel": true
+      },
+      "vpn": {
+        "cache": 0.8,
+        "recalculada": 0.8,
+        "compativel": true
+      },
+      "ic_cache": {
+        "inf": 0.6269395261897256,
+        "sup": 0.9049502189759876
+      },
+      "ic_wilson_padrao": {
+        "inf": 0.6269395261897256,
+        "sup": 0.9049502189759876
+      },
+      "ic_formula_textual": {
+        "inf": 0.6386329005086754,
+        "sup": 0.8932568446570378
+      },
+      "cache_compativel_com_wilson_padrao": true,
+      "cache_compativel_com_formula_textual": false,
+      "formulas_ic_texto": {
+        "inf": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)-1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)",
+        "sup": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)+1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)"
+      },
+      "perda_eqm_treino": 0.18038717550826128,
+      "um_menos_eqm": 0.8196128244917387,
+      "aviso_cache": "CACHE ORIGINAL - NAO VALIDADO apos K20; Solver nao reexecutado",
+      "argmax_confirmacoes": "30/30",
+      "argmax_sem_classe": 0
+    },
+    {
+      "aba": "Rede Neural |n19|n99|n120|n40|",
+      "n": 30,
+      "contagem_rotulos": {
+        "TEA": 15,
+        "NAO_TEA": 15
+      },
+      "matriz": {
+        "TP": 14,
+        "TN": 13,
+        "FP": 2,
+        "FN": 1
+      },
+      "soma_matriz_igual_n": true,
+      "consistentes_totais": true,
+      "acuracia_cache": 0.9,
+      "acuracia_recalculada": 0.9,
+      "acuracia_compativel": true,
+      "sensibilidade": {
+        "cache": 0.9333333333333333,
+        "recalculada": 0.9333333333333333,
+        "compativel": true
+      },
+      "especificidade": {
+        "cache": 0.8666666666666667,
+        "recalculada": 0.8666666666666667,
+        "compativel": true
+      },
+      "vpp": {
+        "cache": 0.875,
+        "recalculada": 0.875,
+        "compativel": true
+      },
+      "vpn": {
+        "cache": 0.9285714285714286,
+        "recalculada": 0.9285714285714286,
+        "compativel": true
+      },
+      "ic_cache": {
+        "inf": 0.7437855868473339,
+        "sup": 0.9654007400402839
+      },
+      "ic_wilson_padrao": {
+        "inf": 0.7437855868473339,
+        "sup": 0.9654007400402839
+      },
+      "ic_formula_textual": {
+        "inf": 0.7588634870695181,
+        "sup": 0.9503228398180996
+      },
+      "cache_compativel_com_wilson_padrao": true,
+      "cache_compativel_com_formula_textual": false,
+      "formulas_ic_texto": {
+        "inf": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)-1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)",
+        "sup": "($T$146+1.96^2/(2*$T$145))/(1+1.96^2/$T$145)+1.96*SQRT(($T$146*(1-$T$146)+1.96^2/(4*$T$145^2))/$T$145)/(1+1.96^2/$T$145)"
+      },
+      "perda_eqm_treino": 0.19713141899419073,
+      "um_menos_eqm": 0.8028685810058093,
+      "aviso_cache": "CACHE ORIGINAL - NAO VALIDADO apos K20; Solver nao reexecutado",
+      "argmax_confirmacoes": "30/30",
+      "argmax_sem_classe": 0
+    }
+  ]
+}

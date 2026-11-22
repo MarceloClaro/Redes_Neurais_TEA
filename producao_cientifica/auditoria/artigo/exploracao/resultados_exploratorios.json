@@ -1,0 +1,586 @@
+{
+  "abas": [
+    {
+      "aba": "Rede Neural |n119|n72|n1|n73",
+      "bootstrap": {
+        "acuracia": {
+          "ic_percentil_inf": 0.4666666666666667,
+          "ic_percentil_sup": 0.8,
+          "mediana": 0.6333333333333333
+        },
+        "especificidade": {
+          "ic_percentil_inf": 0.5333333333333333,
+          "ic_percentil_sup": 0.9333333333333333,
+          "mediana": 0.7333333333333333
+        },
+        "replicas": 2000,
+        "semente": 20261122,
+        "sensibilidade": {
+          "ic_percentil_inf": 0.26666666666666666,
+          "ic_percentil_sup": 0.8,
+          "mediana": 0.5333333333333333
+        }
+      },
+      "contagem_rotulos": {
+        "NAO_TEA": 15,
+        "TEA": 15
+      },
+      "matriz": {
+        "FN": 7,
+        "FP": 4,
+        "TN": 11,
+        "TP": 8
+      },
+      "metricas": {
+        "FN": 7,
+        "FP": 4,
+        "TN": 11,
+        "TP": 8,
+        "acuracia": 0.6333333333333333,
+        "acuracia_balanceada": 0.6333333333333333,
+        "especificidade": 0.7333333333333333,
+        "f1": 0.5925925925925926,
+        "n": 30,
+        "sensibilidade": 0.5333333333333333,
+        "vpn": 0.6111111111111112,
+        "vpp": 0.6666666666666666,
+        "youden_j": 0.2666666666666666
+      },
+      "n": 30,
+      "sensibilidade_erro_rotulo": {
+        "0": {
+          "acuracia": 0.6333333333333333,
+          "especificidade": 0.7333333333333333,
+          "sensibilidade": 0.5333333333333333
+        },
+        "1": {
+          "acuracia": 0.5666666666666667,
+          "especificidade": 0.6666666666666666,
+          "sensibilidade": 0.4666666666666667
+        },
+        "2": {
+          "acuracia": 0.5,
+          "especificidade": 0.6,
+          "sensibilidade": 0.4
+        },
+        "3": {
+          "acuracia": 0.43333333333333335,
+          "especificidade": 0.5333333333333333,
+          "sensibilidade": 0.3333333333333333
+        }
+      },
+      "wilson_no_cache": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "wilson_recomputado": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "wilson_recomputado_igual_cache": true
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n116|n50",
+      "bootstrap": {
+        "acuracia": {
+          "ic_percentil_inf": 0.6,
+          "ic_percentil_sup": 0.8666666666666667,
+          "mediana": 0.7333333333333333
+        },
+        "especificidade": {
+          "ic_percentil_inf": 0.6666666666666666,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.8666666666666667
+        },
+        "replicas": 2000,
+        "semente": 20261122,
+        "sensibilidade": {
+          "ic_percentil_inf": 0.3333333333333333,
+          "ic_percentil_sup": 0.8,
+          "mediana": 0.6
+        }
+      },
+      "contagem_rotulos": {
+        "NAO_TEA": 15,
+        "TEA": 15
+      },
+      "matriz": {
+        "FN": 6,
+        "FP": 2,
+        "TN": 13,
+        "TP": 9
+      },
+      "metricas": {
+        "FN": 6,
+        "FP": 2,
+        "TN": 13,
+        "TP": 9,
+        "acuracia": 0.7333333333333333,
+        "acuracia_balanceada": 0.7333333333333334,
+        "especificidade": 0.8666666666666667,
+        "f1": 0.6923076923076923,
+        "n": 30,
+        "sensibilidade": 0.6,
+        "vpn": 0.6842105263157895,
+        "vpp": 0.8181818181818182,
+        "youden_j": 0.4666666666666668
+      },
+      "n": 30,
+      "sensibilidade_erro_rotulo": {
+        "0": {
+          "acuracia": 0.7333333333333333,
+          "especificidade": 0.8666666666666667,
+          "sensibilidade": 0.6
+        },
+        "1": {
+          "acuracia": 0.6666666666666666,
+          "especificidade": 0.8,
+          "sensibilidade": 0.5333333333333333
+        },
+        "2": {
+          "acuracia": 0.6,
+          "especificidade": 0.7333333333333333,
+          "sensibilidade": 0.4666666666666667
+        },
+        "3": {
+          "acuracia": 0.5333333333333333,
+          "especificidade": 0.6666666666666666,
+          "sensibilidade": 0.4
+        }
+      },
+      "wilson_no_cache": {
+        "inf": 0.5555169795568831,
+        "sup": 0.8581750444608938
+      },
+      "wilson_recomputado": {
+        "inf": 0.5555169795568831,
+        "sup": 0.8581750444608938
+      },
+      "wilson_recomputado_igual_cache": true
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n116|n86",
+      "bootstrap": {
+        "acuracia": {
+          "ic_percentil_inf": 0.4666666666666667,
+          "ic_percentil_sup": 0.8,
+          "mediana": 0.6333333333333333
+        },
+        "especificidade": {
+          "ic_percentil_inf": 0.5333333333333333,
+          "ic_percentil_sup": 0.9333333333333333,
+          "mediana": 0.7333333333333333
+        },
+        "replicas": 2000,
+        "semente": 20261122,
+        "sensibilidade": {
+          "ic_percentil_inf": 0.26666666666666666,
+          "ic_percentil_sup": 0.8,
+          "mediana": 0.5333333333333333
+        }
+      },
+      "contagem_rotulos": {
+        "NAO_TEA": 15,
+        "TEA": 15
+      },
+      "matriz": {
+        "FN": 7,
+        "FP": 4,
+        "TN": 11,
+        "TP": 8
+      },
+      "metricas": {
+        "FN": 7,
+        "FP": 4,
+        "TN": 11,
+        "TP": 8,
+        "acuracia": 0.6333333333333333,
+        "acuracia_balanceada": 0.6333333333333333,
+        "especificidade": 0.7333333333333333,
+        "f1": 0.5925925925925926,
+        "n": 30,
+        "sensibilidade": 0.5333333333333333,
+        "vpn": 0.6111111111111112,
+        "vpp": 0.6666666666666666,
+        "youden_j": 0.2666666666666666
+      },
+      "n": 30,
+      "sensibilidade_erro_rotulo": {
+        "0": {
+          "acuracia": 0.6333333333333333,
+          "especificidade": 0.7333333333333333,
+          "sensibilidade": 0.5333333333333333
+        },
+        "1": {
+          "acuracia": 0.5666666666666667,
+          "especificidade": 0.6666666666666666,
+          "sensibilidade": 0.4666666666666667
+        },
+        "2": {
+          "acuracia": 0.5,
+          "especificidade": 0.6,
+          "sensibilidade": 0.4
+        },
+        "3": {
+          "acuracia": 0.43333333333333335,
+          "especificidade": 0.5333333333333333,
+          "sensibilidade": 0.3333333333333333
+        }
+      },
+      "wilson_no_cache": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "wilson_recomputado": {
+        "inf": 0.45513246433604937,
+        "sup": 0.7812629779598231
+      },
+      "wilson_recomputado_igual_cache": true
+    },
+    {
+      "aba": "Rede Neural |n120|n40|n119|n72",
+      "bootstrap": {
+        "acuracia": {
+          "ic_percentil_inf": 0.6333333333333333,
+          "ic_percentil_sup": 0.9333333333333333,
+          "mediana": 0.8
+        },
+        "especificidade": {
+          "ic_percentil_inf": 0.6,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.8
+        },
+        "replicas": 2000,
+        "semente": 20261122,
+        "sensibilidade": {
+          "ic_percentil_inf": 0.6,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.8
+        }
+      },
+      "contagem_rotulos": {
+        "NAO_TEA": 15,
+        "TEA": 15
+      },
+      "matriz": {
+        "FN": 3,
+        "FP": 3,
+        "TN": 12,
+        "TP": 12
+      },
+      "metricas": {
+        "FN": 3,
+        "FP": 3,
+        "TN": 12,
+        "TP": 12,
+        "acuracia": 0.8,
+        "acuracia_balanceada": 0.8,
+        "especificidade": 0.8,
+        "f1": 0.8,
+        "n": 30,
+        "sensibilidade": 0.8,
+        "vpn": 0.8,
+        "vpp": 0.8,
+        "youden_j": 0.6000000000000001
+      },
+      "n": 30,
+      "sensibilidade_erro_rotulo": {
+        "0": {
+          "acuracia": 0.8,
+          "especificidade": 0.8,
+          "sensibilidade": 0.8
+        },
+        "1": {
+          "acuracia": 0.7333333333333333,
+          "especificidade": 0.7333333333333333,
+          "sensibilidade": 0.7333333333333333
+        },
+        "2": {
+          "acuracia": 0.6666666666666666,
+          "especificidade": 0.6666666666666666,
+          "sensibilidade": 0.6666666666666666
+        },
+        "3": {
+          "acuracia": 0.6,
+          "especificidade": 0.6,
+          "sensibilidade": 0.6
+        }
+      },
+      "wilson_no_cache": {
+        "inf": 0.6269395261897256,
+        "sup": 0.9049502189759876
+      },
+      "wilson_recomputado": {
+        "inf": 0.6269395261897256,
+        "sup": 0.9049502189759876
+      },
+      "wilson_recomputado_igual_cache": true
+    },
+    {
+      "aba": "Rede Neural |n19|n99|n120|n40|",
+      "bootstrap": {
+        "acuracia": {
+          "ic_percentil_inf": 0.7666666666666667,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.9
+        },
+        "especificidade": {
+          "ic_percentil_inf": 0.6666666666666666,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.8666666666666667
+        },
+        "replicas": 2000,
+        "semente": 20261122,
+        "sensibilidade": {
+          "ic_percentil_inf": 0.8,
+          "ic_percentil_sup": 1.0,
+          "mediana": 0.9333333333333333
+        }
+      },
+      "contagem_rotulos": {
+        "NAO_TEA": 15,
+        "TEA": 15
+      },
+      "matriz": {
+        "FN": 1,
+        "FP": 2,
+        "TN": 13,
+        "TP": 14
+      },
+      "metricas": {
+        "FN": 1,
+        "FP": 2,
+        "TN": 13,
+        "TP": 14,
+        "acuracia": 0.9,
+        "acuracia_balanceada": 0.9,
+        "especificidade": 0.8666666666666667,
+        "f1": 0.9032258064516129,
+        "n": 30,
+        "sensibilidade": 0.9333333333333333,
+        "vpn": 0.9285714285714286,
+        "vpp": 0.875,
+        "youden_j": 0.8
+      },
+      "n": 30,
+      "sensibilidade_erro_rotulo": {
+        "0": {
+          "acuracia": 0.9,
+          "especificidade": 0.8666666666666667,
+          "sensibilidade": 0.9333333333333333
+        },
+        "1": {
+          "acuracia": 0.8333333333333334,
+          "especificidade": 0.8,
+          "sensibilidade": 0.8666666666666667
+        },
+        "2": {
+          "acuracia": 0.7666666666666667,
+          "especificidade": 0.7333333333333333,
+          "sensibilidade": 0.8
+        },
+        "3": {
+          "acuracia": 0.7,
+          "especificidade": 0.6666666666666666,
+          "sensibilidade": 0.7333333333333333
+        }
+      },
+      "wilson_no_cache": {
+        "inf": 0.7437855868473339,
+        "sup": 0.9654007400402839
+      },
+      "wilson_recomputado": {
+        "inf": 0.7437855868473339,
+        "sup": 0.9654007400402839
+      },
+      "wilson_recomputado_igual_cache": true
+    }
+  ],
+  "classificacao": "DIAGNOSTICO DO CACHE - NAO e resultado validado do modelo corrigido",
+  "criterios_comparados": [
+    "acuracia",
+    "sensibilidade",
+    "especificidade",
+    "f1",
+    "acuracia_balanceada",
+    "youden_j"
+  ],
+  "declaracoes": [
+    "Nao ha scores individuais no cache; nenhum limiar de probabilidade foi inventado.",
+    "Criterios de decisao foram comparados sobre a matriz observada; a escolha do criterio muda o ranqueamento.",
+    "Bootstrap reamostra celulas da matriz, nao casos originais; incerteza e diagnostica, nao populacional.",
+    "Perturbacao de rotulo e cenario mecanico hipotetico incidindo sobre acertos.",
+    "Nenhuma acuracia, sensibilidade ou especificidade aqui e validade diagnostica.",
+    "Nenhum ganho de classificacao do modelo corrigido e afirmado; Solver nao foi reexecutado."
+  ],
+  "fonte": "../M4_metricas_cache.json",
+  "ranqueamentos": {
+    "acuracia": [
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 1,
+        "valor": 0.9
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 2,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 3,
+        "valor": 0.7333333333333333
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.6333333333333333
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.6333333333333333
+      }
+    ],
+    "acuracia_balanceada": [
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 1,
+        "valor": 0.9
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 2,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 3,
+        "valor": 0.7333333333333334
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.6333333333333333
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.6333333333333333
+      }
+    ],
+    "especificidade": [
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 1,
+        "valor": 0.8666666666666667
+      },
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 2,
+        "valor": 0.8666666666666667
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 3,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.7333333333333333
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.7333333333333333
+      }
+    ],
+    "f1": [
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 1,
+        "valor": 0.9032258064516129
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 2,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 3,
+        "valor": 0.6923076923076923
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.5925925925925926
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.5925925925925926
+      }
+    ],
+    "sensibilidade": [
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 1,
+        "valor": 0.9333333333333333
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 2,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 3,
+        "valor": 0.6
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.5333333333333333
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.5333333333333333
+      }
+    ],
+    "youden_j": [
+      {
+        "aba": "Rede Neural |n19|n99|n120|n40|",
+        "posicao": 1,
+        "valor": 0.8
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n119|n72",
+        "posicao": 2,
+        "valor": 0.6000000000000001
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n50",
+        "posicao": 3,
+        "valor": 0.4666666666666668
+      },
+      {
+        "aba": "Rede Neural |n119|n72|n1|n73",
+        "posicao": 4,
+        "valor": 0.2666666666666666
+      },
+      {
+        "aba": "Rede Neural |n120|n40|n116|n86",
+        "posicao": 5,
+        "valor": 0.2666666666666666
+      }
+    ]
+  },
+  "replicas_bootstrap": 2000,
+  "semente": 20261122,
+  "sha256_fonte": "7c428cdb81756c426e24ee8664f994bb0ca78fb967624abf2e1210ed3de69e5f",
+  "spec": "SPEC-935-R1291",
+  "z_wilson": 1.96
+}
