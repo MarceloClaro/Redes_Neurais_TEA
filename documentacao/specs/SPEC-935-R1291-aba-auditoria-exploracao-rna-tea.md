@@ -3,7 +3,7 @@
 **ID:** SPEC-935-R1291
 **Data:** 2026-11-22
 **Orquestrador:** marceloclaro
-**Status:** proposed — aguardando execução
+**Status:** delivered — AC-1..AC-12 verificados por `verificar_r1291.py` (16/16); sem revisão externa
 **Autorização do usuário:** inserir aba de relatório M7 no `.xlsm` corrigido; revalidar cadeia; análise exploratória separada; não integrar log do Solver nem imagens (não enviados)
 **Relacionada:** SPEC-935-R1282 (M0–M7 entregues)
 
@@ -48,3 +48,7 @@ Acrescentar ao workbook corrigido uma aba documental que registre a cadeia de au
 - Inserir uma aba via edição direta de OOXML pode corromper relacionamentos se feito sem cuidado; a estratégia é mínima e validada por abertura ZIP econtagem de partes.
 - Análise exploratória sobre `n=30` produz intervalos largos; qualquer diferença entre limiares é hipótese, não conclusão.
 - A acurácia em cache (0,6333–0,9000) é diagnóstico do estado original; otimizar limiar sobre o mesmo conjunto é overfitting e será declarado como tal.
+
+## 5. Entrega
+
+Aba `AUDITORIA_M7` inserida no workbook corrigido (hash atual `5dbc6e85cf0312007db88f21b1930403d95013f66844b333e1d35e1239b985cb`), backup pré-r1291 preservado (`3320701be3003f2a797430984a4768f837b8622d1a6534452205c9ae027bb475`) e exploração separada com semente `20261122`. Gate `verificar_r1291.py`: 16/16, incluindo a reexecução dos nove gates anteriores sem `FAIL`. Publicação externa em `MarceloClaro/Redes_Neurais_TEA`, commits `374afb0` e `5df87bf`, com o workbook original fora do repositório por exceder 100 MiB. Nenhuma promoção de confiança por autoavaliação: `confidence_promoted=False`, `calibrated=False`, sem revisão externa.
