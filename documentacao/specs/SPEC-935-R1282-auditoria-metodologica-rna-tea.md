@@ -71,7 +71,7 @@ Avançar após aprovação explícita do usuário em cada marco, conforme o flux
 
 ## 6. Riscos conhecidos
 
-- `producao_cientifica/` está listado no `.gitignore`; os artefatos não estão versionados (registrado em M0).
+- `producao_cientifica/` está listado no `.gitignore` do workspace de origem (registrado em M0); os artefatos foram publicados no repositório externo `MarceloClaro/Redes_Neurais_TEA`, commit `374afb0`, com o original fora do repositório por limite de 100 MiB.
 - Lacuna formulada em M2 apenas como ausência nas buscas realizadas; não é prova de inexistência universal.
 - Reexecução do Solver e uso das 30 imagens dependem de sessão com Excel, log e arquivos do usuário; o usuário informou que executará e enviará.
 - Amostra de teste pequena (`n=30`) produz intervalos largos; generalização é inadmissível.

@@ -62,7 +62,7 @@ O melhor cache permanece `Rede Neural |n19|n99|n120|n40|` com TP14/TN13/FP2/FN1 
 - Periódico-alvo, instituição, prazo, financiamento, conflitos, autoria, local de depósito, abstract e parâmetros de diagramação permanecem `[A CONFIRMAR]`.
 - O texto integral das fontes F01–F13 não foi conferido; M2/M5/M6 usaram resumos, metadados e auditoria por DOI.
 - Não houve revisão externa real; a banca M7 foi simulação heurística local.
-- `producao_cientifica/` permanece no `.gitignore`; nada foi commitado nesta tarefa.
+- `producao_cientifica/` permanece no `.gitignore` do workspace de origem; a produção científica foi publicada em `https://github.com/MarceloClaro/Redes_Neurais_TEA` no commit `374afb0`, sem o workbook original (106.971.375 bytes, acima do limite de 100 MiB), cujo hash está registrado no README.
 
 ## 6. Veredito circunscrito
 

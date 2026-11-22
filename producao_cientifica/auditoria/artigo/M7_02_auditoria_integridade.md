@@ -24,7 +24,7 @@ Esta auditoria examina a cadeia entre artefato original, cópia corrigida, recom
 | Diagnóstico do ambiente | `doctor`: 16 passed, 6 warned, 0 failed com `.venv/bin/python` | observado | 6 avisos permanecem registrados |
 | Critérios de aceitação | AC-1 a AC-14 na SPEC | completos | critérios são internos, não editoriais |
 | Ciclos evolutivos | R1281 a R1289 registrados | rastreáveis | registro não equivale a revisão externa |
-| Versionamento | `producao_cientifica/` permanece no `.gitignore`; nada foi commitado | preservado | nenhuma alteração de configuração sem autorização |
+| Versionamento | `producao_cientifica/` segue no `.gitignore` do workspace de origem; publicação externa em `MarceloClaro/Redes_Neurais_TEA`, commit `374afb0`, sem o original por limite de 100 MiB | rastreável | configuração do workspace não alterada |
 | Manuscritos | `MANUSCRITO_rascunho.md` (M5) e `MANUSCRITO_ABNT.md` (M6) gerados por scripts | distintos e rastreáveis | geradores não incluem data/hora |
 
 ## Divergências que permanecem em aberto
